@@ -1,0 +1,29 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* 强制所有可能的主内容区域都变宽 */
+.container-lg,
+.page-content,
+.main-content,
+.markdown-body,
+.wrapper {
+  max-width: 1000px !important;
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* 手机上略微留边距，但依然尽可能宽 */
+@media screen and (max-width: 600px) {
+  .container-lg,
+  .page-content,
+  .main-content,
+  .markdown-body,
+  .wrapper {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+    max-width: 100% !important;
+  }
+}
