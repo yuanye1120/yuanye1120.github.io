@@ -3,5 +3,17 @@
 
 @import "{{ site.theme }}";
 
+/* 强制文章内容区宽度变大 */
 .main-content {
-  max-width: 800px
+  max-width: 1000px !important;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* 如果是手机屏幕，稍微留一点边距更好看 */
+@media screen and (max-width: 600px) {
+  .main-content {
+    padding: 0 16px;
+    max-width: 100% !important;
+  }
+}
