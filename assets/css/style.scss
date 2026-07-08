@@ -1,0 +1,8 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.main-content {
+  max-width: 1200px; /* 你可以把 900 改成 1000 或 1200，数字越大文章越宽 */
+}
