@@ -1,45 +1,42 @@
 ---
 ---
 
-// 导入 minima 的原始样式
 @import "minima";
 
-// 下面是我们自定义的样式，让它变得清新文艺
-
-// 设置整体背景和字体
 body {
-  background-color: #fdfcf8; // 像纸张一样的暖白色
-  color: #333;
-  font-family: "Georgia", "Times New Roman", serif; // 衬线字体，适合诗歌
+  background-color: #fffaf5;
+  color: #666;
+  font-family: "Georgia", "KaiTi", "STKaiti", serif;
 }
 
-// 让文章内容区域变宽一点，阅读更舒适
+.site-header {
+  background-color: #ffeef2;
+  border-bottom: 1px solid #fadadd;
+}
+.site-title {
+  color: #d88c9a !important;
+}
+
+.post-title {
+  color: #d88c9a;
+  text-align: center;
+  font-weight: normal;
+  font-size: 2em;
+}
+.post-meta {
+  text-align: center;
+  color: #dbb4b4;
+}
+
 .post-content {
   max-width: 700px;
-  margin: 0 auto; // 居中显示
-  font-size: 1.1em; // 字号稍微大一点
-  line-height: 1.8; // 行间距拉大，诗歌看起来更有呼吸感
+  margin: 0 auto;
+  background: rgba(255,255,255,0.8);
+  padding: 2em;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(255, 220, 220, 0.3);
 }
 
-// 调整标题样式
-.post-title {
-  font-size: 2em;
-  font-weight: bold;
-  text-align: center; // 标题居中
-  color: #555;
-}
-
-// 给网站头部换个柔和的颜色
-.site-header {
-  background-color: #f0ece3;
-  border-bottom: 1px solid #e0dcd3;
-}
-
-.site-title, .site-title:visited {
-  color: #666;
-}
-
-// 链接颜色
 a, a:visited {
-  color: #888;
+  color: #e6a0b2;
 }
