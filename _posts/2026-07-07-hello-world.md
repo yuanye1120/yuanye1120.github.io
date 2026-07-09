@@ -15,3 +15,6 @@ catagories: blog
 <div style="text-align: center; margin-bottom: 2em; font-style: italic; color: #b08a8a;">
 </div>
 这里是鸢夜!
+
+
+![111](/assets/images/moshimoshibe_osanai_144147021_p0.png)
